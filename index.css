@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff7ed;
+    background-color: #eee3e6;
     font-family: "Inter", sans-serif;
 }
 
@@ -38,7 +38,7 @@ header {
 }
 
 header .site-logo {
-    color: black;
+    color: rgb(128, 14, 14);
     margin-right: auto;
     text-transform: uppercase;
     font-weight: 900;
@@ -76,7 +76,7 @@ main {
 }
 
 footer {
-    background-color: #161616;
+    background-color: #634e4e;
     color: #aaaaaa;
     height: 74px;
     display: flex;
@@ -102,7 +102,7 @@ footer {
 
 .back-button {
     display: block;
-    color: black;
+    color: rgb(213, 53, 53);
     text-decoration: none;
     margin-left: 26px;
 }
@@ -142,12 +142,12 @@ footer {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    background-color: #ff8c38;
+    background-color: #8d664a;
     border: none;
     width: 100%;
     margin-top: 27px;
     padding-block: 0.75rem;
-    color: white;
+    color: rgb(238, 230, 230);
     font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
@@ -165,7 +165,7 @@ footer {
 
 .about-page-content {
     padding-inline: 23px;
-    color: #161616;
+    color: #8f3a3a;
     margin-bottom: 55px;
 }
 
@@ -178,7 +178,7 @@ footer {
 }
 
 .about-page-cta {
-    background-color: #ffcc8d;
+    background-color: #a3927d;
     color: #161616;
     padding-inline: 32px;
     padding-bottom: 32px;
@@ -220,7 +220,7 @@ footer {
 }
 
 .van-tile a {
-    color: #161616;
+    color: #912d2d;
     text-decoration: none;
 }
 
@@ -242,7 +242,7 @@ footer {
     border: none;
     border-radius: 5px;
     background-color: #ffead0;
-    color: #4d4d4d;
+    color: #a44d4d;
     transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -270,7 +270,7 @@ footer {
 
 .van-type.luxury:hover,
 .van-type.luxury.selected {
-    background-color: #161616;
+    background-color: #4d2c82;
 }
 
 .van-type.clear-filters {
@@ -278,12 +278,12 @@ footer {
     height: 34px;
     padding: 6px 26px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     border: none;
     border-radius: 5px;
     text-decoration: underline;
     background-color: transparent;
-    color: #4d4d4d;
+    color: #d10c0c;
 }
 
 i[class*="van-type-"] {
@@ -337,7 +337,7 @@ i[class*="van-type-"] {
 }
 
 .van-detail .link-button {
-    background-color: #ff8c38;
+    background-color: #c00f24;
     color: white;
     font-size: 1.125rem;
 }
@@ -376,7 +376,7 @@ i[class*="van-type-"] {
 .host-van-single {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgb(235, 176, 176);
     margin-bottom: 15px;
     padding: 18px 24px;
 }
@@ -402,7 +402,7 @@ i[class*="van-type-"] {
 }
 
 .host-van-detail-layout-container {
-    background-color: white;
+    background-color: rgb(225, 201, 201);
     padding: 24px;
     margin: 30px 26px;
 }
@@ -437,14 +437,14 @@ i[class*="van-type-"] {
 
 .host-van-detail-nav a {
     text-decoration: none;
-    color: #4d4d4d;
+    color: #a35c5c;
     font-weight: 500;
     padding: 5px 20px;
 }
 
 .host-van-detail-nav a:first-of-type {
     text-decoration: none;
-    color: #4d4d4d;
+    color: #a55d5d;
     font-weight: 500;
     padding: 5px 15px;
     margin-left: -15px;
@@ -472,7 +472,7 @@ i[class*="van-type-"] {
 
 .host-van-price > span {
     font-size: 16px;
-    color: #4d4d4d;
+    color: #a12a2a;
 }
 
 .host-van-detail-image {
@@ -527,7 +527,7 @@ i[class*="van-type-"] {
 }
 
 .login-form > button {
-    background-color: #ff8c38;
+    background-color: #383bd3;
     border: none;
     border-radius: 6px;
     height: 55px;
@@ -737,6 +737,6 @@ img.graph {
 }
 
 .host-reviews .review-star {
-    color: #ff8c38;
+    color: #f97313;
     margin-right: 5px;
 }
