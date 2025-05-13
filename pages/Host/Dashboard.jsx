@@ -48,7 +48,7 @@ export default function Dashboard() {
                 <div className="info">
                     <h1>Welcome!</h1>
                     <p>Income last <span>30 days</span></p>
-                    <h2>₹39000</h2>
+                    <h2>₹22,600</h2>
                 </div>
                 <Link to="income">Details</Link>
             </section>
