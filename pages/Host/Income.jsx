@@ -2,9 +2,9 @@ import React from "react"
 
 export default function Income() {
     const transactionsData = [
-        { amount: 720, date: "April 10, '25", id: "1" },
-        { amount: 560, date: "April 9, '25", id: "2" },
-        { amount: 980, date: "April 3, '25", id: "3" },
+        { amount: 7200, date: "April 10, '25", id: "1" },
+        { amount: 5600, date: "April 9, '25", id: "2" },
+        { amount: 9800, date: "April 3, '25", id: "3" },
     ]
     return (
         <section className="host-income">
@@ -12,7 +12,7 @@ export default function Income() {
             <p>
                 Last <span>30 days</span>
             </p>
-            <h2>$2,260</h2>
+            <h2>₹2,260</h2>
             <img
                 className="graph"
                 src="/assets/images/income-graph.png"
@@ -27,7 +27,7 @@ export default function Income() {
             <div className="transactions">
                 {transactionsData.map((item) => (
                     <div key={item.id} className="transaction">
-                        <h3>${item.amount}</h3>
+                        <h3>₹{item.amount}</h3>
                         <p>{item.date}</p>
                     </div>
                 ))}
